@@ -11,8 +11,4 @@ configMapGenerator:
   - TEXT1="Welcome to"
   - TEXT2="Production"
   name: rsvpconfig-staging
-apiVersion: kustomize.config.k8s.io/v1beta1
-kind: Kustomization
-images:
-- name: praveenvp07/rsvp-demo
-  newTag: 8f07af31d700786a7901a8351ae6d1204af02412
+
