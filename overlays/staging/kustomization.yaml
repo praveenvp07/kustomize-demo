@@ -14,4 +14,4 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
 - name: praveenvp07/rsvp-demo
-  newTag: 8f07af31d700786a7901a8351ae6d1204af02412
+  newTag: 6e793ea7e73dde576ecd13f39e0d45260c9ca8d6
